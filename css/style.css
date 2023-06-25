@@ -1047,9 +1047,9 @@ ul{
     fill: transparent;
 }
 
-.modal-span{
+/* .modal-span{
     display: inline-flex;
-}
+} */
 
 .modal-check:checked + .modal-text span{
     background-color:  #404bbf;
