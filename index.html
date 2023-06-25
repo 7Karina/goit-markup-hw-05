@@ -317,11 +317,12 @@
                 <div class="footer-bottom">
                     <p class="form-subtitle">Subscribe</p>
                 <form class="footer-form">
-                <label form="footer-email" aria-label="footer email"></label>
+                <label for="footer-email" aria-label="footer email" class="form-label">
                 <input type="email" name="footer-email" 
                 id="footer-email" placeholder="E-mail" class="footer-input"/>
+                </label>
                 <button type="submit" class="btn-input">Subscribe
-                    <svg class="icon-form" wadth="24" height="24">
+                    <svg class="icon-form" width="24" height="24">
                         <use href="./images/icons.svg#icon-frame">
                         </use></svg>
                 </button>
@@ -346,7 +347,7 @@
                             </div>
                         </div>
                         <div class="modal-box-input">
-                            <label class="modal-label" for="phone">Phone</label>
+                            <label class="modal-label" for="user-name">Phone</label>
                             <div class="input-svg">
                                 <input type="text" class="modal-input" id="user-name" name="user-name"/>
                                 <svg class="modal-icon" width="18" height="24">
@@ -357,7 +358,7 @@
                         <div class="modal-box-input">
                             <label class="modal-label" for="email">Email</label>
                             <div class="input-svg">
-                                <input type="text" class="modal-input"/>
+                                <input type="text" class="modal-input" id="email"/>
                                 <svg class="modal-icon" width="18" height="24">
                                     <use href="./images/icons.svg#icon-email-black">
                                 </use></svg>
@@ -371,9 +372,7 @@
                             ></textarea>
                         </div>
                         <div class="modal-checkbox">
-                            <input class="modal-check visualy-hidden" id="user-privacy" 
-                            name="user-privacy"
-                            type="checkbox" value="true"/>
+                            <input class="modal-check visualy-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true"/>
                             <label class="modal-text" for="user-privacy">
                                 <span class="modal-span">
                                     <svg class="modal-checkicon" width="10" height="8">

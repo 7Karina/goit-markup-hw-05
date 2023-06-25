@@ -42,7 +42,7 @@ img{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid ; */
 
 }
 
@@ -790,6 +790,7 @@ ul{
 }
 
 .footer-bottom {
+    margin-left: 80px;
 }
 
 .form-subtitle {
@@ -798,10 +799,13 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .footer-form {
     display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
 .footer-input {
@@ -811,6 +815,10 @@ ul{
     border: 1px solid var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     padding-left: 16px;
     margin-right: 24px;
 }
@@ -832,12 +840,15 @@ ul{
     height: 40px;
     color: var(--white, #FFF);
     text-align: center;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     border-radius: 4px;
     background-color: var(--iris, #4D5AE5);
+    border: none;
 }
 
 .icon-form{
@@ -846,6 +857,7 @@ ul{
     background-color: var(--color-blue);
     fill: var(--color-white);
     transition: background-color 250ms var(--cubic-bezier);
+    margin-left: 16px;
 }
 /* **------------------MODAL-------------* */
 .backdrop{
