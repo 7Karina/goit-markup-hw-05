@@ -1024,10 +1024,6 @@ ul{
     margin-bottom: 24px;
 }
 
-.modal-text{
-    display: flex;
-    align-items: center;
-}
 
 .modal-text a{
     color: #4D5AE5;
